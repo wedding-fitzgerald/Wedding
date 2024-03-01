@@ -1,0 +1,571 @@
+/* BASE STYLES */
+
+html, body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20px!important;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #C8A551;
+    font-size: 3.5rem;
+    font-family: "Great Vibes", cursive;
+}
+
+h2, h3 {
+    color: #C8A551;
+    font-size: 2.5rem;
+    font-family: "Great Vibes", cursive;
+    text-align: center; 
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+hr {
+    background-color: #C8A551;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 1.25rem;
+    text-indent: 2rem;
+}
+
+ul {
+    margin-left: 0!important;
+}
+
+.no-indent {
+    text-indent: 0;
+    margin-top: 0;
+}
+
+.section {
+    padding: 2.5rem;
+}
+
+.section-break {
+    padding: 5rem;
+}
+
+/* HOME STYLES */
+
+.header-section {
+    padding-bottom: 1.25rem;
+}
+
+.logo-columns {
+    margin: auto;
+    width: 65%;
+}
+
+.logo-column {
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.matt-title {
+    text-align: right;
+    padding-right: 1.25rem;
+}
+
+.emma-title {
+    padding-left: 1.25rem;
+}
+
+.navbar {
+    background-color: #000000;
+    margin-top: 2.5rem;
+}
+
+.navbar-start {
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.navbar-item {
+    color: #C8A551;
+    font-size: 1.25rem!important;
+}
+
+.rsvp-link, .registry-link {
+    background-color: #591111;
+    border: 1px solid #C8A551;
+}
+
+.active {
+    border-bottom: 2px solid #591111;
+}
+
+.navbar-item:hover {
+    background-color: #000000!important;
+    color: #C8A551!important;
+    border-bottom: 2px solid #591111!important;
+}
+
+.rsvp-link:hover, .registry-link:hover {
+    background-color: #C8A551!important;
+    border: 1px solid #591111!important;
+    color: #000000!important;
+}
+
+.navbar-menu {
+    background-color: #000000!important;
+}
+
+.nav-burger-lines {
+    background-color: #C8A551!important;
+    width: 2rem!important;
+    height: 2px!important;
+}
+
+.main-image-section {
+    padding: 0;
+}
+
+.our-story-line {
+    width: 4.75rem;
+}
+
+.about-cols {
+    margin-top: 2.5rem;
+}
+
+.about-left-col {
+    padding-right: 5rem;
+}
+
+.about-right-col {
+    padding-left: 5rem;
+}
+
+.children-line {
+    width: 7.75rem;
+}
+
+.about-children {
+    margin-top: 2.5rem;
+}
+
+.child-image {
+    margin: auto;
+}
+
+.registry-line {
+    width: 3.9rem;
+}
+
+.registry-link {
+    margin-top: 1.25rem;
+    width: 20%;
+}
+
+.faq-line, .contact-line {
+    width: 3.5rem;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #591111;
+    border: 1px solid #C8A551;
+    margin-top: 1.25rem;
+}
+
+.faq-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #C8A551;
+    border: 1px solid #000000;
+    border-radius: .2rem;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.faq-icon {
+    color: #000000;
+}
+
+.faqContent {
+    display: none;
+    background-color: #C29B3E;
+    color: #000000;
+    padding: .5rem;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.active-button {
+    background-color: #991D1D;
+}
+
+.label {
+    color: #FFFFFF;
+}
+
+.input, .textarea {
+    background-color: #591111;
+    border: 1px solid #C8A551;
+    color: #FFFFFF;
+}
+
+.form-submit {
+    background-color: #C8A551;
+    border: 1px solid #591111;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+}
+
+.form-submit:hover {
+    background-color: #C29B3E;
+    border: 1px solid #591111;
+    color: #000000;
+}
+
+.footer {
+    background-color: #C8A551;
+    margin-top: 2.5rem;
+}
+
+.footer-heads {
+    font-size: 2.25rem!important;
+    color: #000000!important;
+    font-weight: 400!important;
+}
+
+.footer-lists {
+    list-style-type: none;
+}
+
+.footer-lists a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.contact-icon {
+    color: #000000;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* EVENT SCHEDULE */
+
+.event-line {
+    width: 6.8rem;
+}
+
+.event-schedule-column {
+    background-color: #591111;
+    border: 1px solid #C8A551;
+    font-size: 1.25rem;
+    margin: 2.5rem;
+    box-shadow: .5rem .5rem 1.5rem #991D1D;
+}
+
+.event-list {
+    margin: .75rem;
+}
+
+.event-faq-link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.event-faq-link:hover {
+    color: #FFFFFF;
+}
+
+/* PHOTOS */
+
+.photo-line {
+    width: 3.1rem;
+}
+
+.download-button {
+    background-color: #591111;
+    border: 1px solid #C8A551;
+    color: #C8A551;
+    font-family: "Playfair Display", serif;
+    margin-top: .75rem;
+}
+
+.download-button:hover {
+    background-color: #C8A551;
+    border: 1px solid #591111;
+    color: #000000;
+}
+
+/* BRIDAL PARTY */
+
+.bridal-line {
+    width: 6.25rem;
+}
+
+.bridal-name {
+    font-size: 1.25rem;
+    color: #C8A551;
+    margin: 0;
+}
+
+.bridal-title {
+    margin: 0;
+}
+
+.bridal-right-column {
+    text-align: right;
+    text-indent: 0;
+}
+
+.bridal-text {
+    text-indent: 0;
+}
+
+/* RSVP */
+.rsvp-line {
+    width: 5.25rem;
+}
+
+#rsvp-complete {
+    display: none;
+}
+
+.rsvp-search {
+    border-radius: 0;
+    border-start-start-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.rsvp-search::placeholder {
+    color: #FFFFFF;
+    opacity: 25%;
+}
+
+.rsvp-search-button {
+    background-color: #591111;
+    border: 1px solid #C8A551;
+    border-radius: 0;
+    border-end-end-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.search-icon {
+    color: #C8A551;
+}
+
+.rsvp-search:hover, .rsvp-search-button:hover {
+    border: 1px solid #C8A551;
+}
+
+.table {
+    width: 50%;
+    margin: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+th, td {
+    color: #FFFFFF!important;
+    border-color: #C8A551!important;
+}
+
+.radio:hover {
+    color: #FFFFFF;
+}
+
+.rsvp-text {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.email-input {
+    width: 50%;
+    margin: auto;
+}
+
+#rsvp-table {
+    display: none;
+}
+
+.box {
+    background-color: #591111;
+    padding: 1rem;
+}
+
+.modal-line {
+    width: 12rem;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel {
+    background-color: #591111;
+    border: none;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    text-decoration: underline;
+}
+
+.cancel:hover {
+    color: #FFFFFF;
+}
+
+/* RESPONSE QUERIES */
+
+@media screen and (max-width: 1450px) {
+    .footer-img {
+        width: 100%!important;
+        height: auto!important;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .navbar-item {
+        font-size: 1rem!important;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .logo-columns {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-item {
+        font-size: 1.25rem!important;
+    }
+
+    .active {
+        width: 12rem;
+    }
+
+    .rsvp-link {
+        width: 10rem;
+    }
+
+    .rupert-image {
+        width: 100%!important;
+        height: auto!important;
+    }
+
+    .registry-link {
+        width: 40%;
+    }
+
+    .rsvp-column {
+        width: 100%!important;
+    }
+
+    .field.has-addons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .logo-img {
+        width: 200px!important;
+        height: 200px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        width: 250px!important;
+        height: 250px!important;
+    }
+
+    .matt-title, .emma-title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .about-left-col, .about-right-col {
+        padding: 0;
+    }
+
+    .about-right-col {
+        margin-top: 1.25rem;
+    }
+
+    .rupert-image {
+        width: 480px!important;
+    }
+
+    .registry-link {
+        width: 75%;
+    }
+
+    .footer-img {
+        width: 250px!important;
+    }
+
+    .contact-icon {
+        text-align: right!important;
+    }
+
+    .download {
+        margin: auto;
+    }
+
+    .bridal-left-columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bridal-name, .bridal-title {
+        text-align: center;
+    }
+
+    .bridal-text {
+        margin-bottom: 1rem;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+    .rsvp-text {
+        text-align: left!important;
+        margin: 0;
+        width: 100%;
+    }
+
+    .rsvp-form {
+        text-align: left!important;
+    }
+
+    .email-input {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .registry-container {
+        width: 125%!important;
+    }
+
+    .registry-link {
+        width: 100%;
+        font-size: 1rem!important;
+    }
+}
